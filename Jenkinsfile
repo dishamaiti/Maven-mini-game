@@ -14,7 +14,8 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/dishamaiti/Maven-mini-game-project.git'
+                git branch: 'main', url: 'https://github.com/dishamaiti/Maven-mini-game.git'
+
             }
         }
 
